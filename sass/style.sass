@@ -15,6 +15,7 @@ html
         float: right
         text-align: right
         animation: 2s right85rem ease-in-out
+        animation-delay: .2s
         &_title
             font-family: 'Montserrat'
             font-style: normal
@@ -87,12 +88,22 @@ html
             background-blend-mode: soft-light, normal, normal
             backface-visibility: hidden
             animation: 2s down45rem ease-in-out
+            transition: .3s all
+            filter: brightness(.5)
+            &:hover
+                transform: scale(1.05)
+                filter: brightness(1)
         &_image-2
             width: 35vh
             height: 55vh
             background: linear-gradient(0deg, rgba(0, 10, 255, 0.5), rgba(0, 10, 255, 0.5)), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/1.jpeg") no-repeat center / cover
             background-blend-mode: soft-light, normal, normal
             animation: 2s up50rem ease-in-out 
+            transition: .3s all
+            filter: brightness(.5)
+            &:hover
+                transform: scale(1.05)
+                filter: brightness(1)
     &__two
         clip-path: polygon(10% 0, 100% 0, 90% 100%, 0% 100%)
         &_image-3
@@ -101,12 +112,22 @@ html
             background: linear-gradient(0deg, rgba(0, 10, 255, 0.5), rgba(0, 10, 255, 0.5)), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/4.jpeg") no-repeat center / cover
             background-blend-mode: soft-light, normal, normal
             animation: 2s down55rem ease-in-out 
+            transition: .3s all
+            filter: brightness(.5)
+            &:hover
+                transform: scale(1.05)
+                filter: brightness(1)
         &_image-4
             width: 35vh
             height: 45%
             background: linear-gradient(0deg, rgba(0, 10, 255, 0.5), rgba(0, 10, 255, 0.5)), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/3.jpeg") no-repeat center / cover
             background-blend-mode: soft-light, normal, normal
             animation: 2s up40rem ease-in-out 
+            transition: .3s all
+            filter: brightness(.5)
+            &:hover
+                transform: scale(1.05)
+                filter: brightness(1)
     &__three
         clip-path: polygon(10% 0, 100% 0, 90% 100%, 0% 100%)
         &_image-5
@@ -115,12 +136,22 @@ html
             background: linear-gradient(0deg, rgba(0, 10, 255, 0.5), rgba(0, 10, 255, 0.5)), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/5.jpeg") no-repeat center / cover
             background-blend-mode: soft-light, normal, normal
             animation: 2s down35rem ease-in-out 
+            transition: .3s all
+            filter: brightness(.5)
+            &:hover
+                transform: scale(1.05)
+                filter: brightness(1)
         &_image-6
             width: 35vh
             height: 65%
             background: linear-gradient(0deg, rgba(0, 10, 255, 0.5), rgba(0, 10, 255, 0.5)), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/6.jpeg") no-repeat center / cover
             background-blend-mode: soft-light, normal, normal
             animation: 2s up60rem ease-in-out 
+            transition: .3s all
+            filter: brightness(.5)
+            &:hover
+                transform: scale(1.05)
+                filter: brightness(1)
 
 .margin-top-20px
     margin-top: 2rem
