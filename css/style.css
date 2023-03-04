@@ -1,0 +1,218 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.header {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(72.44deg, #023049 0%, #000D3D 100%);
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+.header__box {
+  float: right;
+  text-align: right;
+  animation: 2s right85rem ease-in-out;
+}
+.header__box_title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21rem;
+  line-height: 15.6rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #00FFE0 0%, #04D2FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-top: 30%;
+}
+.header__box_first-subtitle {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 6.4rem;
+  line-height: 7.8rem;
+  text-transform: uppercase;
+  color: white;
+  margin-right: 2.5rem;
+}
+.header__box_second-subtitle {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12.8rem;
+  line-height: 9.6rem;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #0066FF 0%, #01F0FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-right: 2rem;
+}
+
+.nav__ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin-top: 5.4rem;
+}
+.nav__link {
+  text-decoration: none;
+  color: white;
+  font-size: 1.6rem;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2rem;
+  text-transform: uppercase;
+  margin-right: 2rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+}
+.nav__link:hover {
+  background: #0066FF;
+  animation: 2s bgAnimationLink ease-in infinite;
+}
+
+.box {
+  display: flex;
+  position: absolute;
+  top: 1rem;
+}
+.box__one {
+  -webkit-clip-path: polygon(10% 0, 100% 0, 90% 100%, 0% 100%);
+          clip-path: polygon(10% 0, 100% 0, 90% 100%, 0% 100%);
+}
+.box__one_image-1 {
+  width: 35vh;
+  height: 45vh;
+  background: linear-gradient(0deg, rgba(0, 10, 255, 0.5), rgba(0, 10, 255, 0.5)), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/2.jpeg") no-repeat center/cover;
+  background-blend-mode: soft-light, normal, normal;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  animation: 2s down45rem ease-in-out;
+}
+.box__one_image-2 {
+  width: 35vh;
+  height: 55vh;
+  background: linear-gradient(0deg, rgba(0, 10, 255, 0.5), rgba(0, 10, 255, 0.5)), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/1.jpeg") no-repeat center/cover;
+  background-blend-mode: soft-light, normal, normal;
+  animation: 2s up50rem ease-in-out;
+}
+.box__two {
+  -webkit-clip-path: polygon(10% 0, 100% 0, 90% 100%, 0% 100%);
+          clip-path: polygon(10% 0, 100% 0, 90% 100%, 0% 100%);
+}
+.box__two_image-3 {
+  width: 35vh;
+  height: 55%;
+  background: linear-gradient(0deg, rgba(0, 10, 255, 0.5), rgba(0, 10, 255, 0.5)), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/4.jpeg") no-repeat center/cover;
+  background-blend-mode: soft-light, normal, normal;
+  animation: 2s down55rem ease-in-out;
+}
+.box__two_image-4 {
+  width: 35vh;
+  height: 45%;
+  background: linear-gradient(0deg, rgba(0, 10, 255, 0.5), rgba(0, 10, 255, 0.5)), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/3.jpeg") no-repeat center/cover;
+  background-blend-mode: soft-light, normal, normal;
+  animation: 2s up40rem ease-in-out;
+}
+.box__three {
+  -webkit-clip-path: polygon(10% 0, 100% 0, 90% 100%, 0% 100%);
+          clip-path: polygon(10% 0, 100% 0, 90% 100%, 0% 100%);
+}
+.box__three_image-5 {
+  width: 35vh;
+  height: 35%;
+  background: linear-gradient(0deg, rgba(0, 10, 255, 0.5), rgba(0, 10, 255, 0.5)), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/5.jpeg") no-repeat center/cover;
+  background-blend-mode: soft-light, normal, normal;
+  animation: 2s down35rem ease-in-out;
+}
+.box__three_image-6 {
+  width: 35vh;
+  height: 65%;
+  background: linear-gradient(0deg, rgba(0, 10, 255, 0.5), rgba(0, 10, 255, 0.5)), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/6.jpeg") no-repeat center/cover;
+  background-blend-mode: soft-light, normal, normal;
+  animation: 2s up60rem ease-in-out;
+}
+
+.margin-top-20px {
+  margin-top: 2rem;
+}
+
+@keyframes down55rem {
+  0% {
+    transform: translateY(-55rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes down45rem {
+  0% {
+    transform: translateY(-45rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes down35rem {
+  0% {
+    transform: translateY(-35rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes up60rem {
+  0% {
+    transform: translateY(60rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes up50rem {
+  0% {
+    transform: translateY(50rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes up40rem {
+  0% {
+    transform: translateY(40rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes right85rem {
+  0% {
+    transform: translateX(85rem);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes bgAnimationLink {
+  0% {
+    background: #0066FF;
+  }
+  50% {
+    background: #00949e;
+  }
+  100% {
+    background: #0066FF;
+  }
+}
